@@ -6,7 +6,7 @@ const LISTEN_PORT = 8081;
 const logRequests = process.argv.includes('--log-requests');
 
 /**
- * Build that is used by to check for available updates.
+ * Build number that is used by game to check for available updates.
  * Game will not allow you to do anything if this number
  * is smaller than game is expecting.
  * 

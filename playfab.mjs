@@ -78,7 +78,7 @@ function handlePlayFabAPI(req, res, body) {
         }));
     } else if (req.url.startsWith('/Authentication/GetEntityToken')) {
         //
-        // Requested by server
+        // Requested by game server
         //
         res.end(JSON.stringify({
             Code: 200,
@@ -91,7 +91,7 @@ function handlePlayFabAPI(req, res, body) {
         }));
     } else if (req.url.startsWith('/Match/GetMatch')) {
         //
-        // Requested by server
+        // Requested by game server
         //
         res.end(JSON.stringify({
             ArrangementString: 'arrString',
